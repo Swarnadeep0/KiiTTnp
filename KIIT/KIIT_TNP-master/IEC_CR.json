@@ -1,0 +1,372 @@
+{
+    "table": [{
+	    "img":"./assets/img/user.png",
+        "class":"clientD",
+		"icon":"fa-university",
+		"class1":"client-nameD text-center",
+		"des":" Director IE",
+		"Despara":"",
+		"name": "Dr. Saranjit Singh",
+        "email": " ssingh@kiit.ac.in",
+		"ph":" 9437020233"
+    }, {
+	    "img":"./assets/img/user.png",
+        "class":"clientD",
+		"icon":"fa-university",
+		"class1":"client-nameD text-center",
+		"des":" Director CR",
+		"Despara":"",
+		"name": "Dr. Kumar Mohanty",
+        "email": " m.kumar@kiit.ac.in",
+		"ph":" 9937220236"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clientD",
+		"icon":"fa-university",
+		"class1":"client-nameD text-center",
+		"des":" Director CAAS",
+		"Despara":"",
+		"name": "Dr. Suman Bhattacharya",
+        "email": " suman.b@kiit.ac.in",
+		"ph":" 7008894967"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clientT",
+		"icon":"fa-paper-plane",
+		"class1":"client-nameT text-center",
+		"des":" Associate Dean(T&P)",
+		"Despara":"",
+		"name": "Dr. Prachet Bhuyan",
+        "email": " pbhuyanfcs@kiit.ac.in",
+		"ph":" 7894427738"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clientT",
+		"icon":"fa-paper-plane",
+		"class1":"client-nameT text-center",
+		"des":" Associate Dean(T&P)",
+		"Despara":"",
+		"name": "Dr. Abhishek Ray",
+        "email": " arayfcs@kiit.ac.in",
+		"ph":" 7894427741"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-building",
+		"class1":"client-name text-center",
+		"des":" Civil Engineering",
+		"name":"Dr. D.K. Bera",
+		"Despara":"Associate Dean(T&P)",
+        "email": " dberafce@kiit.ac.in",
+		"ph":" 7894470698"
+    },{
+		"img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-building",
+		"class1":"client-name text-center",
+		"des":" Civil Engineering",
+		"name": "Dr. Himanshu Panda",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " himanshu.pandafce@kiit.ac.in",
+		"ph":" 9437357262"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-building",
+		"class1":"client-name text-center",
+		"des":" Civil Engineering",
+		"name": "Prof. Rohan Kar",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " rohan.karfce@kiit.ac.in",
+		"ph":" 7064169409"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-building",
+		"class1":"client-name text-center",
+		"des":" Civil Engineering",
+		"name": "Dr. Kshyanaprava Samal",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " kshyanaprava.samalfce@kiit.ac.in",
+		"ph":" 9488819967"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-mobile",
+		"class1":"client-name text-center",
+		"des":" Computer Applications",
+		"name": "Mr. Manas Mukul",
+		"Despara":"Associate Dean (T&P)",
+        "email": " mmukulfca@kiit.ac.in",
+		"ph":" 9124999460"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-laptop",
+		"class1":"client-name text-center",
+		"des":" Computer Engineering",
+		"name": "Prof. Tanmay Swain",
+		"Despara":"Associate Dean(T&P) I/c",
+        "email": " tanmayafcs@kiit.ac.in",
+		"ph":" 7205477303"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-laptop",
+		"class1":"client-name text-center",
+		"des":" Computer Engineering",
+		"name": "Prof. Ashutosh Behura",
+		"Despara":" Faculty Associate(T&P)",
+        "email": " ashutoshfcs@kiit.ac.in",
+		"ph":" 9040247534"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-bolt",
+		"class1":"client-name text-center",
+		"des":" Electrical Engineering",
+		"name": "Prof. Subrat Behera",
+		"Despara":"Associate Dean(T&P)",
+        "email": " sbeherafel@kiit.ac.in ",
+		"ph":" 7683922664"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-bolt",
+		"class1":"client-name text-center",
+		"des":" Electrical Engineering",
+		"name": "Prof. Ankit Soni",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " ",
+		"ph":" 7587352151"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-bolt",
+		"class1":"client-name text-center",
+		"des":" Electrical Engineering",
+		"name": "Prof. Prashnajit Behera",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " prashnajit.beherafel@kiit.ac.in",
+		"ph":" 7205399868"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-microchip",
+		"class1":"client-name text-center",
+		"des":" Electronics Engineering",
+		"name": "Prof. Rahul Yadav",
+		"Despara":"Associate Dean(T&P)",
+        "email": " rahulfet@kiit.ac.in ",
+		"ph":" 9778263836"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-microchip",
+		"class1":"client-name text-center",
+		"des":" Electronics Engineering",
+		"name": "Prof. Tushar Singh",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " tushar.singhfet@kiit.ac.in",
+		"ph":" 8594967390"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-microchip",
+		"class1":"client-name text-center",
+		"des":" Electronics Engineering",
+		"name": "Prof. Arindam Basak ",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " abasakfet@kiit.ac.in",
+		"ph":" 9938557233"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-microchip",
+		"class1":"client-name text-center",
+		"des":" Electronics Engineering",
+		"name": "Prof. Israj Ali",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " israjfet@kiit.ac.in",
+		"ph":" 9040585975"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-wrench",
+		"class1":"client-name text-center",
+		"des":" Mechanical Engineering",
+		"name": "Prof. Nitin Sharma",
+		"Despara":"Associate Dean(T&P)I/c",
+        "email": " nitin.sharmafme@kiit.ac.in",
+		"ph":" 9658780735"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-wrench",
+		"class1":"client-name text-center",
+		"des":" Mechanical Engineering",
+		"name": "Prof. Rishitosh Rajan",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " rishitoshfme@kiit.ac.in",
+		"ph":" 9090040315"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"client",
+		"icon":"fa-wrench",
+		"class1":"client-name text-center",
+		"des":" Mechanical Engineering",
+		"name": "Prof. P. Chandrasekhar",
+		"Despara":"Faculty Associate(T&P)",
+        "email": " csekharfme@kiit.ac.in ",
+		"ph":" 7008199972"
+    }],
+	
+	
+	"table1": [{
+	    "img":"./assets/img/user.png",
+        "class":"cl",
+		"icon":"fa-handshake-o",
+		"class1":"cl-name text-center",
+		"des":" Placement Officer",
+		"para":"",
+		"Despara":"",
+		"name": "Mr. Debraj Mitra",
+        "email": " placement@kiit.ac.in",
+		"ph":" +917894427740"
+    }, {
+	    "img":"./assets/img/user.png",
+        "class":"cl",
+		"icon":"fa-handshake-o",
+		"class1":"cl-name text-center",
+		"des":" Placement Officer",
+		"para":"",
+		"Despara":"",
+		"name": "Mr. T.P. Bakshi",
+        "email": " t.bakshi@kiit.ac.in",
+		"ph":" +91 92383 14803"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clE",
+		"icon":"fa-hand-o-right",
+		"class1":"cl-nameE text-center",
+		"des":"East",
+		"para":"fa-users",
+		"name": "Mr. Navendu Kar",
+		"Despara":" CR Team",
+        "email": " kiitcr.nk@kiit.ac.in",
+		"ph":" +91 94370 72960"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clW",
+		"icon":"fa-hand-o-left",
+		"class1":"cl-nameW text-center",
+		"des":" West",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name": "Mr. Pradeep Sreedhar",
+        "email": " kiitcr.ss@kiit.ac.in",
+		"ph":" +91 93228 36323"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clW",
+		"icon":"fa-hand-o-left",
+		"class1":"cl-nameW text-center",
+		"des":" West",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name": "Ms. Archana Mishra",
+        "email": " kiitcr.ar@kiit.ac.in",
+		"ph":" +91 81143 94666"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clW",
+		"icon":"fa-hand-o-left",
+		"class1":"cl-nameW text-center",
+		"des":" West",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name": "Ms. Dipti Galani",
+        "email": " kiitcr.aj@kiit.ac.in",
+		"ph":" +91 99204 51647"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clW",
+		"icon":"fa-hand-o-left",
+		"class1":"cl-nameW text-center",
+		"des":" West",
+		"para":"fa-users",
+		"name":"Mr. Abhijeet Ranjan",
+		"Despara":" CR Team",
+        "email": " kiitcr.nn@kiit.ac.in",
+		"ph":" +91 81143 94888"
+    },{
+		"img":"./assets/img/user.png",
+        "class":"clW",
+		"icon":"fa-hand-o-left",
+		"class1":"cl-nameW text-center",
+		"des":" West",
+		"para":"fa-users",
+		"name": "Ms. Krithika Koul",
+		"Despara":" CR Team",
+        "email": " kiitcr.kk@kiit.ac.in",
+		"ph":" +91 90046 93905"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clN",
+		"icon":"fa-hand-o-up",
+		"class1":"cl-nameN text-center",
+		"des":" North",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name":"Mr. Rajan Pradhan",
+        "email": " kiitcr.dj@kiit.ac.in",
+		"ph":" +91 88282 20707"
+    },{
+	    "img":"./assets/img/user.png",
+        "class":"clN",
+		"icon":"fa-hand-o-up",
+		"class1":"cl-nameN text-center",
+		"des":" North",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name":"Mr. Shakti Pratim Das",
+        "email": " kiitcr.sp@kiit.ac.in",
+		"ph":" +91 81143 94777"
+    },{
+	    
+	    "img":"./assets/img/user.png",
+        "class":"clN",
+		"icon":"fa-hand-o-up",
+		"class1":"cl-nameN text-center",
+		"des":" North",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name":"Mr. Bikram Lenka",
+        "email": " l.bikram@kiit.ac.in",
+		"ph":" +91 99379 37595"
+    },{
+	    
+	    "img":"./assets/img/user.png",
+        "class":"clS",
+		"icon":"fa-hand-o-down",
+		"class1":"cl-nameS text-center",
+		"des":" South",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name":"Ms. Mahasweta Mohanty",
+        "email": " kiitcr.mm@kiit.ac.in",
+		"ph":" +91 93410 57074"
+    },{
+	    
+	    "img":"./assets/img/user.png",
+        "class":"clS",
+		"icon":"fa-hand-o-down",
+		"class1":"cl-nameS text-center",
+		"des":" South",
+		"para":"fa-users",
+		"Despara":" CR Team",
+		"name":"Mr. Mrutyunjay Ray",
+        "email": " kiitcr.sm@kiit.ac.in",
+		"ph":" +91 76828 45230"
+    }]
+}

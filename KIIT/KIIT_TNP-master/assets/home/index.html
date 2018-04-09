@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/js.cookie.js"></script>
+<link rel="stylesheet" href="./css/pre-loader.css"/>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+<script>
+	$(window).load(function(){
+		$(".se-pre-con").delay(2000).fadeOut("slow");
+		var x=Cookies.get('sessionCookie');
+    if(x==null){
+		$("#failed").css("visibility","visible");
+		window.location = "../../empty.html";
+	}
+	else{
+		console.log(x);
+		$("#success").css("visibility","visible");
+	}
+	});
+</script>
+<title>Home Page</title>
+</head>
+<body>
+  <div id="gif" class="se-pre-con"></div>
+  <div id="success" style="visibility:hidden"><h1>CONGO!! you are authenticated</h1></div>
+  <div id="failed" style="visibility:hidden"><h1>SORRY!! try again</h1></div> 
+
+
+</body>
+</html>

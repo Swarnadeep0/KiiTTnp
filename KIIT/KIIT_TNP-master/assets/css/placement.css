@@ -1,0 +1,395 @@
+/*
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+
+// Table of contents //
+
+		Body
+	00.  General
+	01.  Header & footer
+	02.  About us
+	03.  Numscroll
+	04.  Client
+	05.  Testimonials
+	06.  IEC
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+@import url(https://fonts.googleapis.com/css?family=Cantarell:400,700,300);
+
+
+
+/* --------------------------------
+
+00.GENERAL STYLES
+
+-------------------------------- */
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #456990;
+  color: #fff;
+}
+
+/* #####  text  ##### */
+
+/*Timeline*/
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+  background: #F45B69;
+  padding: 50px 0;
+}
+
+.section .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section h1 {
+  font-size: 2.5rem;
+}
+
+.section h2 {
+  font-size: 1.3rem;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .time-heading h1
+{
+    margin-top: -9rem;
+    color:#000;
+    text-align: center;
+    text-shadow: 1px 1px 1px #e9e9e8, 
+               3px 3px 0.1px #e0e0e2;
+}
+.timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+  background: #f7f9ff;
+}
+
+.timeline ol {
+    
+  font-size: 0;
+  width: 100vw;
+  padding: 180px 0;
+  transition: all 1s;
+  margin-top:10px;
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 180px;
+  height: 2px;
+  background: #e4e4e4;
+}
+
+.timeline ol li:last-child {
+  width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #F45B69;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 230px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color: black;
+  background: #f2f2f2;
+  box-shadow: inset 0px 0px 30px 6px #e9e9e9;
+}
+
+.timeline ol li div::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: #e9e9e9 transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent #e9e9e9;
+}
+
+.timeline time {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color:#51c5e2;
+}
+
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-top:3rem;
+  margin-bottom: 20px;
+}
+
+.timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+
+.timeline .disabled {
+  opacity: .5;
+}
+
+.timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 599px) {
+  .timeline ol,
+  .timeline ol li {
+    width: auto; 
+  }
+  
+  .timeline ol {
+    padding: 0;
+    transform: none !important;
+  }
+  
+  .timeline ol li {
+    display: block;
+    height: auto;
+    background: transparent;
+  }
+  
+  .timeline ol li:first-child {
+    margin-top: 25px;
+  }
+  
+  .timeline ol li:not(:first-child) {
+    margin-left: auto;
+  }
+  
+  .timeline ol li div {
+    width: 94%;
+    height: auto !important;
+    margin: 0 auto 25px;
+  }
+  
+  .timeline ol li div {
+    position: static;
+  }
+  
+  .timeline ol li:nth-child(odd) div {
+    transform: none;
+  }
+  
+  .timeline ol li:nth-child(odd) div::before,
+  .timeline ol li:nth-child(even) div::before {
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: none;
+    border-left: 1px solid white;
+    height: 25px;
+  }
+  
+  .timeline ol li:last-child,
+  .timeline ol li:nth-last-child(2) div::before,
+  .timeline ol li:not(:last-child)::after,
+  .timeline .arrows {
+    display: none;
+  }
+}
+.button-placement {
+    float: right;
+  position: relative;
+  left: -44.6%;
+    background-color: white; 
+    color: black; 
+    border: 0.5px solid #E0E0E0;
+}
+
+.button-placement:hover {
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24);
+    background-color: #02cb52;
+    text-shadow: 1px 1px 3px #BDBDBD;
+    border: none;    
+    font-weight: bold;
+    color: white;
+    
+}
+@media(max-width: 480px){
+.button-placement 
+{
+    left:-30%;
+}
+}
+.placement-feedback-area ul
+{
+  display:flex;
+}
+.placement-feedback-area .slick-dots
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.placement-feedback-area .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    text-indent: -999999999999999999999999px;
+    border: 3px solid #a49fba;
+    background-color: #fff;
+    margin: 5.5px;
+    outline: none;
+}
+
+.placement-feedback-area .slick-dots li.slick-active button {
+    background-color: #ff266d;
+    border-color: #ff266d;
+}
+
+.placement-feedback-area .slick-slide.client-thumbnail {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.placement-feedback-area .slick-slide.client-thumbnail label{
+text-align: center;
+margin-top:1px;
+}
+.placement-feedback-area .slick-slide img {
+    display: block;
+    width: 200px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0.1px 1px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0.1px 1px 9px rgba(0, 0, 0, 0.1);
+}
+
+
+.placement-feedback-area .slick-arrow {
+    position: absolute;
+    width: 40px;
+    background-color: #fff;
+    height: 30px;
+    text-align: center;
+    top:22%;
+    font-size: 24px;
+    color: #b5aec4;
+    display: block;
+    border-radius: 50%;
+    line-height: 550%;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.placement-feedback-area .slick-arrow.arrow-right {
+    left: auto;
+    right: 0;
+    top:22%;
+}
+/*Career*/
+.career
+{
+  padding:80px;
+  margin-top: -50px;
+}
+.career h1
+{
+  text-align: center;
+  text-shadow: 1px 3px 1px #e8e8e8,
+               2px 1px 2px #fff;
+}
+.career p
+{
+  margin-top: 5rem;
+  line-height: 1.5;
+  font-size:1.75em;
+  font-weight: 5;
+  text-align: center;
+}
