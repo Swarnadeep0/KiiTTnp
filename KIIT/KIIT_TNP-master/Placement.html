@@ -64,7 +64,7 @@
   </div>
   </div>
 </nav>
-		<div id="container" class="intro-effect-fadeout">
+		<div id="container" class="intro-effect-fadeout modify">
 			<!-- Top Navigation -->
 			
 			<header class="header bg-img bg-film1">
@@ -123,14 +123,14 @@
     </li>
     <li></li>
   </ol>
-  <div class="arrows">
+  <!--div class="arrows">
     <button class="arrow arrow__prev disabled" disabled>
       <img src="assets/img/arrow_prev.svg" alt="prev timeline arrow">
     </button>
     <button class="arrow arrow__next">
       <img src="assets/img/arrow_next.svg" alt="next timeline arrow">
     </button>
-  </div> 
+  </div--> 
 </section>
 
   <div class="row"  style="margin-bottom: 5rem;">
@@ -351,7 +351,7 @@
 				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
 				// left: 37, up: 38, right: 39, down: 40,
 				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
+				var keys = [32, 37, 38, 39], wheelIter = 0;
 
 				function preventDefault(e) {
 					e = e || window.event;
@@ -433,12 +433,12 @@
 					
 					if( reveal ) {
 						classie.add( container, 'modify' );
-					}
+					}/*
 					else {
 						noscroll = true;
 						disable_scroll();
-						classie.remove( container, 'modify' );
-					}
+						classie.remove( container, '' );
+					}*/
 
 					// simulating the end of the transition:
 					setTimeout( function() {

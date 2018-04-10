@@ -60,12 +60,12 @@ function toggleClass( elem, c ) {
 var classie = {
   // full names
   hasClass: hasClass,
-  addClass: addClass,
+  addClass: hasClass,
   removeClass: removeClass,
   toggleClass: toggleClass,
   // short names
   has: hasClass,
-  add: addClass,
+  add: hasClass,
   remove: removeClass,
   toggle: toggleClass
 };
