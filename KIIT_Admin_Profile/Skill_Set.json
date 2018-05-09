@@ -1,0 +1,28 @@
+{
+	"Skill_Set":{
+		"Roll":"1505343",
+		"Name":"Swarnadeep Chatterjee",
+		"Skills":[
+					{
+						"Skill_id":"101",
+						"Skill_name":"Java",
+						"Proficiency":"90"
+				 	},
+				 	{
+						"Skill_id":"102",
+						"Skill_name":"Html",
+						"Proficiency":"81"
+				 	},
+				 	{
+						"Skill_id":"103",
+						"Skill_name":"JavaScript",
+						"Proficiency":"70"
+				 	},
+					{
+						"Skill_id":"104",
+						"Skill_name":"Spring",
+						"Proficiency":"43"
+				 	}
+				 ]
+	}
+}

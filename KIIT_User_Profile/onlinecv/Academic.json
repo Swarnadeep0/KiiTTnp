@@ -1,0 +1,25 @@
+{"Academics":{
+    "Roll":"1505343",
+	"Name":"Swarnadeep Chatterjee",
+	"Performance":[{
+					"education_topic":"Xth Boards",
+					"Year":"2012-2013",
+					"Institution":"Snjak hjk School",
+					"format":"Percentage",
+					"Percentage":"95"
+				  },{
+					"education_topic":"XII (Senior Secondary), Science",
+					"Year":"2014-2015",
+					"Institution":"Snjak hjk School",
+					"format":"Percentage",
+					"Percentage":"95"
+				  },{
+					"education_topic":"Bachelor of Technology (B.Tech), Computer Science & Engineering (CSE)",
+					"Year":"2015-2019",
+					"Institution":"Kalinga Institute of Industrial Technology",
+					"format":"CGPA",
+					"Percentage":"8.9"
+				  }
+				  ]
+}
+}

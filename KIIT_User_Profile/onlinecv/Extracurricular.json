@@ -1,0 +1,36 @@
+{
+	"Extracurricular":{
+			"id":"1505343",
+			"Name":"Swarnadeep Chatterjee",
+			"Activity":[
+						{
+						"Activity_id":"1",
+						"Activity_name":"Adopt-a-Highway",
+						"Activity_info":"Abc has a intution friendly XYZ"
+						},{
+						"Activity_id":"2",
+						"Activity_name":"Best Buddies International",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Activity_id":"3",
+						"Activity_name":"Volunteering",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Activity_id":"4",
+						"Activity_name":"Red Cross Club",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						}
+					  ],
+			"Achievements":[
+						{
+						"Achievement_id":"1",
+						"Achievement_name":"Certificate",
+						"Achievement_info":"Abc has a intution friendly XYZ"
+						},{
+						"Achievement_id":"2",
+						"Achievement_name":"Certified Misanthropist",
+						"Achievement_info":"Abc has a intution friendly XYZ"
+						}]
+						
+	}
+}

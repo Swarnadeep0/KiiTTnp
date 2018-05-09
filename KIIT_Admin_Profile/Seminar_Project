@@ -1,0 +1,30 @@
+{
+	Student_Project_Seminar:{
+			"id":"1505343"
+			"Name":"Swarnadeep Chatterjee"
+			"Seminar":[
+						{
+						"Seminar_name":"XYZ"
+						"Seminar_info":"Abc has a intution friendly XYZ"
+						},{
+						"Seminar_name":"XYZ1"
+						"Seminar_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Seminar_name":"XYZ1"
+						"Seminar_info":"Abc1 has a intution friendly XYZ"
+						}
+					  ]
+		    "Project":[
+		    			{
+						"Project_name":"XYZ"
+						"Project_info":"Abc has a intution friendly XYZ"
+						},{
+						"Project_name":"XYZ1"
+						"Project_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Project_name":"XYZ1"
+						"Project_info":"Abc1 has a intution friendly XYZ"
+						}	
+		    		  ]
+	}
+}

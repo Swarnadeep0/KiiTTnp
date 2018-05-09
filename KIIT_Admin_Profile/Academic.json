@@ -1,0 +1,52 @@
+{"Academics":{
+    "Roll":"1505343",
+	"Name":"Swarnadeep Chatterjee",
+	"CGPA":"8.9",
+	"SemesterGrade":
+			[
+				{
+					"Sem":"1" ,
+					"SCGPA":"8.7"
+				},
+				{
+					"Sem":"2" ,
+					"SCGPA":"7"
+				},
+				{
+					"Sem":"3" ,
+					"SCGPA":"8.2"
+				},
+				{
+					"Sem":"4" ,
+					"SCGPA":"6.9"
+				},
+				{
+					"Sem":"5" ,
+					"SCGPA":"7.8"
+				},
+				{
+					"Sem":"6" ,
+					"SCGPA":"8.1"
+				},
+				{
+					"Sem":"7" ,
+					"SCGPA":"9.7"
+				}
+			],
+	"Schooling":
+			[
+				{
+					"class":"10",
+					"Percentage":"90",
+					"AggregatePercentage":"90",
+					"School":"XYZ"
+				},
+				{
+					"class":"12",
+					"Percentage":"90",
+					"AggregatePercentage":"87",
+					"School":"XYZ"
+				}
+			]
+}
+}

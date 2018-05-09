@@ -1,0 +1,36 @@
+{
+	"Extracurricular":{
+			"id":"1505343",
+			"Name":"Swarnadeep Chatterjee",
+			"Activity":[
+						{
+						"Activity_id":"1",
+						"Activity_name":"Seminar to XYZ",
+						"Activity_info":"Abc has a intution friendly XYZ"
+						},{
+						"Activity_id":"2",
+						"Activity_name":"Seminar to inform XYZ1",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Activity_id":"3",
+						"Activity_name":"XYZ1 Seminar",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Activity_id":"4",
+						"Activity_name":"XYZ1 Seminar",
+						"Activity_info":"Abc1 has a intution friendly XYZ"
+						}
+					  ],
+			"Achievements":[
+						{
+						"Achievement_id":"1",
+						"Achievement_name":"Certificate",
+						"Achievement_info":"Abc has a intution friendly XYZ"
+						},{
+						"Achievement_id":"2",
+						"Achievement_name":"Certified as",
+						"Achievement_info":"Abc has a intution friendly XYZ"
+						}]
+						
+	}
+}

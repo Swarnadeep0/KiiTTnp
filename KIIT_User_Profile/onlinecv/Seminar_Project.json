@@ -1,0 +1,90 @@
+{
+	"Student_Project_Seminar":{
+			"id":"1505343",
+			"Name":"Swarnadeep Chatterjee",
+			"Seminar":[
+						{
+						"Seminar_id":"1",
+						"Seminar_name":"Seminar to XYZ",
+						"Seminar_info":"Abc has a intution friendly XYZ"
+						},{
+						"Seminar_id":"2",
+						"Seminar_name":"Seminar to inform XYZ1",
+						"Seminar_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Seminar_id":"3",
+						"Seminar_name":"XYZ1 Seminar",
+						"Seminar_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Seminar_id":"4",
+						"Seminar_name":"XYZ1 Seminar",
+						"Seminar_info":"Abc1 has a intution friendly XYZ"
+						}
+					  ],
+		    "Project":[
+		    			{
+						"Project_id":"1",
+						"Project_name":"Project XYZ",
+						"Project_info":"Abc has a intution friendly XYZ"
+						},{
+						"Project_id":"2",
+						"Project_name":"Project on XYZ1",
+						"Project_info":"Abc1 has a intution friendly XYZ"
+						},{
+						"Project_id":"3",
+						"Project_name":"Project to XYZ1",
+						"Project_info":"Abc1 has a intution friendly XYZ"
+						}	
+		    		  ],
+			"Training_and_Internship":[
+						{
+						"tr_id":"1",
+						"tr_name":"Trained in Angular",
+						"tr_info":"Abc has a intution friendly XYZ",
+						"tr_duration":"6 month"
+						},{
+						"tr_id":"2",
+						"tr_name":"Intern at Places",
+						"tr_info":"Abc1 has a intution friendly XYZ",
+						"tr_duration":"6 month"
+						},{
+						"tr_id":"3",
+						"tr_name":"Trained",
+						"tr_info":"Abc1 has a intution friendly XYZ",
+						"tr_duration":"6 month"
+						},{
+						"tr_id":"4",
+						"tr_name":"Intern at Places",
+						"tr_info":"Abc1 has a intution friendly XYZ",
+						"tr_duration":"6 month"
+						}
+						],
+			"Certification":[
+						{
+						"Certificate_id":"1",
+						"Certificate_name":"Certificate",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						},{
+						"Certificate_id":"2",
+						"Certificate_name":"Certificate in",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						},{
+						"Certificate_id":"3",
+						"Certificate_name":"SVHGH",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						},{
+						"Certificate_id":"4",
+						"Certificate_name":"Certificate",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						},{
+						"Certificate_id":"5",
+						"Certificate_name":"Certificate in",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						},{
+						"Certificate_id":"6",
+						"Certificate_name":"SVHGH",
+						"Certificate_info":"Abc has a intution friendly XYZ"
+						}]
+						
+	}
+}
