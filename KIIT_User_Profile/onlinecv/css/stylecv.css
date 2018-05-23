@@ -22,17 +22,13 @@ p {
 	color: #444;
 }
 
-#cv {
-	width: 90%;
-	max-width: 800px;
-	background: #f3f3f3;
-	margin: 30px auto;
-}
+
 
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
+	background: #fbfffe;
+	
 }
 
 #name h1 {
@@ -50,6 +46,8 @@ p {
 
 #mainArea {
 	padding: 0 40px;
+	background: #fbfffe;
+/*	-webkit-print-color-adjust:exact;*/
 }
 
 #headshot {
@@ -116,7 +114,6 @@ section:last-child {
 	float: left;
 	width: 25%;
 }
-
 .sectionContent {
 	float: right;
 	width: 72.5%;
@@ -379,7 +376,23 @@ section:last-child {
   flex: 1 1 auto;
   padding: 1.25rem;
 }
-
+/*Download */a#pdf 
+{ 
+		display: block;
+		float: right; 
+		background:#666; 
+		color: white; 
+		padding: 0.6rem 0.3rem 0.5rem 0.2rem; 
+		margin-bottom: 1rem; 
+		text-decoration: none;
+		border:1px solid black;
+		border-radius:5px;
+		}
+a#pdf:hover 
+{ 
+background: #222;
+cursor: pointer;
+}
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -557,6 +570,14 @@ section:last-child {
     border-radius: 0;
   }
 }
+#cv {
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
+	background:#f7f9fb;
+	
+}
+
 
 .card-columns .card {
   margin-bottom: 0.75rem;
@@ -572,7 +593,7 @@ section:last-child {
     width: 100%;
   }
 }
-a#pdf { display: block; float: right; background:#666; color: white; padding: 0.6rem 0.3rem 0.5rem 0.2rem; margin-bottom: 1rem; text-decoration: none;border:1px solid black;border-radius:5px;}
-a#pdf:hover { background: #222;}
+
+
 /*FOOTER*/
 

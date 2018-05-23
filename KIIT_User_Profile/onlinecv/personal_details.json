@@ -1,9 +1,12 @@
 {
 	"Personal":[{
 		"Name":"Swarnadeep Chatterjee",
+		"Objective":"Want fun, stimulating job that pays me in tacos and a mountain of money every month. Oh, and fifty days of paid vacation. And a gym membership. Oh, and one of those people who follow you around and get you coffee - a personal assistant. Yes, one of those",
 		"Institute":"Kalinga Institute of Industrial Technology",
 		"Email":"abc@kiit.ac.in",
 		"Mobile_number":"9611817894",
+		"Status_completion":"2",
+		"img":"./img/user.png",
 		"Address":"Aroha hawaii,plot-6,Delhi,India",
 		"linkedin":"#",
 		"github":"#",
